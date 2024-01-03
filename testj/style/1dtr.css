@@ -1,0 +1,273 @@
+
+.all{
+    font-family: Arial;
+    background-color: white;
+    color: black;
+    
+}
+:root {
+    --lightgreen: #D1F3C8;
+    --white: #fff;
+    --red: rgba(255, 0, 0, 0.133);
+    --black1: #222;
+    --gray: #999;
+    --darkgreen: #6a8863;
+    --green: #65df65;
+}
+
+
+.top{
+    text-align: center;
+    font-size: 18px;
+    border-style: solid;
+    border-width: thin;
+    border-color: var(--black1);
+    box-shadow: 7px 7px 1px var(--lightgreen);
+    height: 80px;
+    margin-bottom: 10px;
+    position: relative;
+    border-radius: 15px;
+}
+
+
+
+.top2{
+    display: grid;
+    border-width: thin;
+    border-color: var(--black1);
+    box-shadow: 7px 7px 1px var(--lightgreen);
+    margin-bottom: 10px;
+    border-style: solid;
+    color: var(--darkgreen);
+    height: 50px;
+    border-radius: 15px;
+}
+
+
+.grid-mid{
+    display: grid;
+    grid-template-columns: 505px 835px;
+    position: relative;
+    
+}
+
+.mid-left{
+    border-style: solid;
+    border-width: thin;
+    border-color: var(--black1);
+    box-shadow: 7px 7px 1px var(--lightgreen);
+    margin-right: 12px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+
+.mid-left-title{
+    border-style: solid;
+    border-width: thin;
+    border-color: var(--black1);
+    background-color: var(--lightgreen);
+    text-align: center;
+    height: 40px;
+    border-top-left-radius: 15px;
+   border-top-right-radius: 15px;
+}
+
+.mid-output{
+    line-height: 40px;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+
+
+.grid-mid-left{
+    display: grid;
+    grid-template-columns: 245px 247px;
+}
+
+.mid-left1, .mid-left2{
+    border-style: solid;
+    text-align: center;
+    border-width: thin;
+    border-color: var(--black1);
+    background-color: var(--lightgreen);
+}
+
+.mid-left3{
+    text-align: justify;
+    font-size: 20px;
+
+}
+
+.mid-left4{    
+    text-align: center;
+}
+
+.mid-right{
+    border-collapse: collapse;
+    margin: 5px 6px;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 7px 4px 1px var(--lightgreen);
+    border-radius: 15px;
+    border: solid;
+    border-width: thin;
+}
+
+.mid-right-title{
+    text-align: center;
+    background-color: var(--lightgreen);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border: solid;
+    border-width: thin;
+}
+
+.mid-database{
+    line-height: 40px;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+.title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 21px;
+
+    
+}
+
+.grid-bottom{
+    display: grid;
+    grid-template-columns: 505px 835px;
+    
+}
+
+.bottom-left{
+    border-style: solid;
+    border-width: thin;
+    border-color: var(--black1);
+    margin-right: 12px;
+    height: 170px;
+    box-shadow: 7px 5px 1px var(--lightgreen);
+    text-align: center;
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+
+
+.bottom-left-title {
+    text-align: center;
+    border-width: thin;
+    border-color: var(--black1);
+    border-style: solid;
+    background-color: var(--lightgreen);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.grid-bottom-left{
+    display: grid;
+    grid-template-columns: 245px 247px;
+}
+.bottom-left1, .bottom-left2 {
+    border: thin solid black;
+    background-color: var(--lightgreen);
+    margin-bottom: 7px;
+}
+
+
+.bottom-right-up{
+    border-style: solid;
+    border-width: thin;
+    border-color: var(--black1);
+    text-align: center;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    height: 40px;
+    box-shadow: 7px 5px 1px var(--lightgreen);
+    border-radius: 15px;
+}
+
+
+.bottom-right-down{
+    border-style: solid;
+    border-width: thin;
+    border-color: var(--black1);
+    margin-right: 8px;
+    margin-bottom: 10px;
+    box-shadow: 7px 7px 1px var(--lightgreen);
+    height: 120px;
+    text-align: center;
+    border-radius: 15px;
+}
+.next-jo{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 38px;
+}
+
+.scan{
+    font-size: 90px;
+    text-align: center;
+    color: green;
+    font-weight: bold;
+    line-height: 120px;
+}
+
+.scan-here{
+font-size: 20px;
+}
+
+.scan-input{
+    background-color: var(--lightgreen);
+    padding: 12px 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.rbutton {
+    
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: opacity 0.20s;
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+}
+
+
+
+.variance{
+    font-size: 80px;
+    font-weight: bold;
+}
+.actual{
+    font-size: 80px;
+    font-weight: bold;
+}
+.plan {
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.dpr{
+    line-height: 40px;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+

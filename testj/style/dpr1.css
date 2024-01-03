@@ -1,0 +1,123 @@
+:root {
+    --lightgray: #6D6D6D;
+    --white: #fff;
+    --red: #ee3939;
+    --black1: #222;
+    --gray: #252424;
+    --darkgreen: #83d471;
+    --green: #41eb41;
+    --darkyellow: #aaaa22;
+    --lightyellow: #f7f734;
+    --lightblue : #58fafa;
+    --lightgreen : #61fc61;
+}
+
+body{
+    font-family: Arial;
+    background-color: black;
+    color: white;
+}
+.header{
+    text-align: center;
+    border: 2px solid var(--lightgray);
+    border-radius: 15px;
+}
+
+.title{
+    text-align: center;
+    font-size: 40px;
+    border: 2px solid var(--lightgray);
+    background-color: var(--lightgray);
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+.rbutton {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: opacity 0.20s;
+    position: absolute;
+    right: 10px;
+}
+
+.top-row{
+    display: flex;
+    flex-wrap: wrap; 
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.top-column-left{
+    flex: 1;
+    box-sizing: border-box;
+    display: flex;
+    color: white;
+    text-align: center;
+    margin: 7px 10px;
+    padding-right: 50px;
+    margin-left: 50px;
+    color: var(--lightgreen);
+}
+
+.top-column-right{
+    flex: 1;
+    box-sizing: border-box;
+    display: flex;
+    color: white;
+    text-align: left;
+    margin: 7px 10px;
+    margin-left: 550px;
+    color: var(--lightgreen);
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap; 
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.output-monitoring{
+    flex: 1;
+    box-sizing: border-box;
+    display: flex;
+    color: white;
+    text-align: center;
+
+    color: var(--lightgreen);
+}
+
+.mid-row{
+    display: flex;
+    flex-wrap: wrap; 
+    font-weight: bold;
+    font-size: 25px;   
+}
+
+.mid-column{
+    flex: 1;
+    box-sizing: border-box;
+    display: flex;
+    color: white;
+    text-align: center;
+    margin: 7px 10px;
+    padding-right: 50px;
+    margin-left: 50px;
+    color: var(--lightgreen);
+    border: 1px solid var(--lightgray);
+    border-radius: 10px;
+}
+
+.mid-title{
+    border: 1px solid var(--lightgray);
+    border-radius: 10px;
+}

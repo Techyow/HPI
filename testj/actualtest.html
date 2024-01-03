@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Increment ACTUAL_QTY</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <h1>ACTUAL : <span class="actual" id="actual">0</span></h1>
+        <label for = "model_actual">Model Name:</label>
+        <input type= "text" id= "model_actual" placeHolder="Enter Model Name Here"/><br>
+    <button type="button" id="increment-button" class="gbutton">Increment</button>
+
+    <script>
+        $(document).ready(function () {
+            // Retrieve the current value when the page loads
+      //      fetchCurrentValue();
+
+            // Add click event listener to the increment button
+            $('#increment-button').click(function () {
+                incrementValue();
+            });
+        });
+
+        
+
+        // Function to increment and update the value
+        function incrementValue() {
+            const model_actual = document.getElementById('model_actual').value;
+        $.ajax({
+                url: 'actualUpdate.php',
+                type: 'POST',
+                data: { model_actual: model_actual },
+                dataType: 'json',
+                success: function (data) {
+                    $('#actual').text(data.updatedValue);
+                },
+                error: function () {
+                    console.error('Error incrementing value.');
+                }
+            });
+        }
+    </script>
+</body>
+</html>
+
+

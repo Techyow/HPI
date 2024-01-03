@@ -1,0 +1,44 @@
+[26-Sep-2023 00:25:50 UTC] PHP Parse error:  syntax error, unexpected token "public", expecting end of file in C:\inetpub\wwwroot\testj\includes\connect_as400.php on line 2
+[26-Sep-2023 00:26:33 UTC] PHP Parse error:  syntax error, unexpected token "public", expecting end of file in C:\inetpub\wwwroot\testj\includes\connect_as400.php on line 2
+[26-Sep-2023 00:27:25 UTC] PHP Parse error:  syntax error, unexpected token "public", expecting end of file in C:\inetpub\wwwroot\testj\includes\connect_as400.php on line 2
+[26-Sep-2023 00:27:47 UTC] PHP Parse error:  syntax error, unexpected token "public", expecting end of file in C:\inetpub\wwwroot\testj\includes\connect_as400.php on line 2
+[26-Sep-2023 00:27:47 UTC] PHP Parse error:  syntax error, unexpected token "public", expecting end of file in C:\inetpub\wwwroot\testj\includes\connect_as400.php on line 2
+[26-Sep-2023 00:27:48 UTC] PHP Parse error:  syntax error, unexpected token "public", expecting end of file in C:\inetpub\wwwroot\testj\includes\connect_as400.php on line 2
+[26-Sep-2023 00:28:03 UTC] PHP Fatal error:  Uncaught Error: Using $this when not in object context in C:\inetpub\wwwroot\testj\includes\connect_as400.php:7
+Stack trace:
+#0 {main}
+  thrown in C:\inetpub\wwwroot\testj\includes\connect_as400.php on line 7
+[26-Sep-2023 00:28:04 UTC] PHP Fatal error:  Uncaught Error: Using $this when not in object context in C:\inetpub\wwwroot\testj\includes\connect_as400.php:7
+Stack trace:
+#0 {main}
+  thrown in C:\inetpub\wwwroot\testj\includes\connect_as400.php on line 7
+[26-Sep-2023 00:28:06 UTC] PHP Fatal error:  Uncaught Error: Using $this when not in object context in C:\inetpub\wwwroot\testj\includes\connect_as400.php:7
+Stack trace:
+#0 {main}
+  thrown in C:\inetpub\wwwroot\testj\includes\connect_as400.php on line 7
+[26-Sep-2023 00:28:07 UTC] PHP Fatal error:  Uncaught Error: Using $this when not in object context in C:\inetpub\wwwroot\testj\includes\connect_as400.php:7
+Stack trace:
+#0 {main}
+  thrown in C:\inetpub\wwwroot\testj\includes\connect_as400.php on line 7
+[26-Sep-2023 00:29:08 UTC] PHP Parse error:  syntax error, unexpected token "public", expecting end of file in C:\inetpub\wwwroot\testj\includes\connect_as400.php on line 2
+[26-Sep-2023 00:29:08 UTC] PHP Parse error:  syntax error, unexpected token "public", expecting end of file in C:\inetpub\wwwroot\testj\includes\connect_as400.php on line 2
+[26-Sep-2023 00:29:09 UTC] PHP Parse error:  syntax error, unexpected token "public", expecting end of file in C:\inetpub\wwwroot\testj\includes\connect_as400.php on line 2
+[26-Sep-2023 00:29:10 UTC] PHP Parse error:  syntax error, unexpected token "public", expecting end of file in C:\inetpub\wwwroot\testj\includes\connect_as400.php on line 2
+[26-Sep-2023 00:29:11 UTC] PHP Parse error:  syntax error, unexpected token "public", expecting end of file in C:\inetpub\wwwroot\testj\includes\connect_as400.php on line 2
+[26-Sep-2023 00:30:08 UTC] PHP Parse error:  syntax error, unexpected token "public", expecting end of file in C:\inetpub\wwwroot\testj\includes\connect_as400.php on line 2
+[26-Sep-2023 00:30:09 UTC] PHP Parse error:  syntax error, unexpected token "public", expecting end of file in C:\inetpub\wwwroot\testj\includes\connect_as400.php on line 2
+[26-Sep-2023 00:30:09 UTC] PHP Parse error:  syntax error, unexpected token "public", expecting end of file in C:\inetpub\wwwroot\testj\includes\connect_as400.php on line 2
+[26-Sep-2023 00:30:11 UTC] PHP Parse error:  syntax error, unexpected token "public", expecting end of file in C:\inetpub\wwwroot\testj\includes\connect_as400.php on line 2
+[26-Sep-2023 00:30:12 UTC] PHP Parse error:  syntax error, unexpected token "public", expecting end of file in C:\inetpub\wwwroot\testj\includes\connect_as400.php on line 2
+[26-Sep-2023 00:30:12 UTC] PHP Parse error:  syntax error, unexpected token "public", expecting end of file in C:\inetpub\wwwroot\testj\includes\connect_as400.php on line 2
+[26-Sep-2023 00:30:13 UTC] PHP Parse error:  syntax error, unexpected token "public", expecting end of file in C:\inetpub\wwwroot\testj\includes\connect_as400.php on line 2
+[26-Sep-2023 00:30:14 UTC] PHP Parse error:  syntax error, unexpected token "public", expecting end of file in C:\inetpub\wwwroot\testj\includes\connect_as400.php on line 2
+[26-Sep-2023 00:30:29 UTC] PHP Parse error:  syntax error, unexpected token "public", expecting end of file in C:\inetpub\wwwroot\testj\includes\connect_as400.php on line 2
+[26-Sep-2023 00:30:31 UTC] PHP Parse error:  syntax error, unexpected token "public", expecting end of file in C:\inetpub\wwwroot\testj\includes\connect_as400.php on line 2
+[26-Sep-2023 00:30:32 UTC] PHP Parse error:  syntax error, unexpected token "public", expecting end of file in C:\inetpub\wwwroot\testj\includes\connect_as400.php on line 2
+[26-Sep-2023 00:32:12 UTC] PHP Parse error:  syntax error, unexpected token "public", expecting end of file in C:\inetpub\wwwroot\testj\includes\connect_as400.php on line 2
+[26-Sep-2023 00:32:35 UTC] PHP Parse error:  syntax error, unexpected token "public", expecting end of file in C:\inetpub\wwwroot\testj\includes\connect_as400.php on line 2
+[26-Sep-2023 00:32:36 UTC] PHP Parse error:  syntax error, unexpected token "public", expecting end of file in C:\inetpub\wwwroot\testj\includes\connect_as400.php on line 2
+[26-Sep-2023 00:32:36 UTC] PHP Parse error:  syntax error, unexpected token "public", expecting end of file in C:\inetpub\wwwroot\testj\includes\connect_as400.php on line 2
+[26-Sep-2023 00:32:41 UTC] PHP Parse error:  syntax error, unexpected token "public", expecting end of file in C:\inetpub\wwwroot\testj\includes\connect_as400.php on line 2
+[26-Sep-2023 00:32:42 UTC] PHP Parse error:  syntax error, unexpected token "public", expecting end of file in C:\inetpub\wwwroot\testj\includes\connect_as400.php on line 2

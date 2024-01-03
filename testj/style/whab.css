@@ -1,0 +1,95 @@
+
+    
+
+:root {
+    --lightblue: #2562cc;
+    --lightgreen: #29fc29;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color : var(--lightblue);
+    background-color: black;
+}
+
+.header{
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    padding: 2px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    background-color: var(--lightblue);
+    color: white;
+}
+
+
+.top-row{
+    display: flex;
+    flex-wrap: wrap;    
+    color: white;
+}
+
+.top-column{
+    flex: 1; 
+    box-sizing: border-box; 
+    text-align: center;
+    margin-right: 10px;
+    border-radius: 20px;
+    box-shadow: 7px 7px 4px var(--lightblue);
+    font-size: 30px;
+    font-weight: 600px;
+    margin-bottom: 10px;
+    border: 1px solid var(--lightblue);
+}
+
+#cbu-database, #stm-database{
+    color: var(--lightblue);
+}
+
+.scan-here{
+    font-size: 30px;
+    font-weight: 600px;
+}
+
+.scan-input{
+    padding: 12px 45px;
+    font-size: 30px;
+    border-radius: 10px;
+    background-color: var(--lightblue);
+    color: white;
+    
+}
+
+
+.mid{
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    padding: 2px 10px;
+    font-size: 25px;
+    margin-bottom: 10px;
+    background-color: var(--lightblue);
+    color: white;
+}
+
+#engine-scanned, #frame-scanned, #block-code{
+    color: var(--lightblue);
+    border-radius: 10px;
+    padding: 7px;
+    background-color: white;
+}
+
+
+
+
+.bottom{
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    font-size: 116px;
+    font-weight: 700;
+    padding: 10px;
+    color: var(--lightgreen);
+    box-shadow: 7px 7px 4px var(--lightblue);
+    border: 1px solid var(--lightblue);
+}

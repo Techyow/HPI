@@ -1,0 +1,66 @@
+/* ============= Import Google Font =================== */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@700&display=swap');
+
+
+
+:root {
+    --red: #ff0000;
+    --white: #fff;
+    --gray: #f5f5f5;
+    --black1: #222;
+    --black2: #999;
+}
+
+body{
+    min-height: 100vh;
+    overflow-x:hidden;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+}
+/* Updated topbar styling */
+.topbar {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--gray); /* Optional background color */
+    padding: 0 20px; /* Adjust padding as needed */
+}
+
+.user {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.user img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.topbar-content {
+    display: flex;
+    align-items: center;
+}
+
+.topbar-content span {
+    margin-right: 10px; /* Adjust margin as needed */
+    font-weight: bold;
+}
+
+.topbar-content a {
+    text-decoration: none;
+    color: var(--black2); /* Optional link color */
+    transition: color 0.3s;
+}
+
+.topbar-content a:hover {
+    color: var(--black1); /* Optional link color on hover */
+}
